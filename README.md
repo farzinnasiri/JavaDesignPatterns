@@ -16,3 +16,10 @@ This is the uml of builder pattern:
 
 ## Pitfalls
 * A little complex mainly because of method changing 
+
+# Simple Factory Pattern
+When Multiple types can be instantiated and the choice is based on some simple criteria
+
+![Simple_Factory_UML](images/simple_factory_uml.png)
+##Pitfalls
+* Situation can get complicated and complex. For this situations you should use factory method
