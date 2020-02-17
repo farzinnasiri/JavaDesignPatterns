@@ -23,3 +23,18 @@ When Multiple types can be instantiated and the choice is based on some simple c
 ![Simple_Factory_UML](images/simple_factory_uml.png)
 ##Pitfalls
 * Situation can get complicated and complex. For this situations you should use factory method
+
+#Factory Method Pattern
+* We want to move the object creation logic from our code to a separate class.
+* We don't know in advance which class we may need to instantiate beforehand and also allow new classes to be added
+ to system and handle their creation without affecting client code.
+* We let subclasses decide which object to instantiate by overriding the factory method
+
+![Factory_Method](images/factory_method_uml.png)
+##Pitfalls
+* More complex to implement. More classes involved and need unit testing
+* You have to start with factory method from the beginning. It's not easy to refactor existing code into factory method pattern
+* Sometimes this pattern forces you to subclass just to create appropriate instance.
+ 
+
+
